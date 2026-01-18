@@ -1,7 +1,7 @@
 from flask import Flask, request
-import roadmap
-import quiz
-import generativeResources
+from . import roadmap
+from . import quiz
+from . import generativeResources
 from flask_cors import CORS
 
 app = Flask(__name__)
